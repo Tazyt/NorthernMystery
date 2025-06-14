@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Northern Mystery – Star Stable</title>
+
+  <!-- Google Font: Poppins -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Tailwind CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+  />
+  <link rel="stylesheet" href="style.css?v=1.0">
+
+  <style>
+    /* Apply Poppins font throughout */
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    /* Responsive nav menu */
+    @media (max-width: 900px) {
+      .nav-menu {
+        flex-direction: column;
+        gap: 12px;
+        font-size: 1rem;
+        align-items: flex-start;
+      }
+      .nav-link {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+    }
+    @media (max-width: 600px) {
+      .glass, .max-w-4xl, .max-w-xl {
+        min-width: 90vw !important;
+        max-width: 98vw !important;
+        padding-left: 4vw !important;
+        padding-right: 4vw !important;
+      }
+      .text-5xl { font-size: 2rem !important; }
+      .text-3xl { font-size: 1.3rem !important; }
+      .py-20 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+      .px-6 { padding-left: 2vw !important; padding-right: 2vw !important; }
+      .gallery-item img { max-width: 100%; height: auto; }
+      .main { padding-left: 0 !important; padding-right: 0 !important; }
+    }
+    @media (max-width: 500px) {
+      .nav-menu { flex-direction: column; gap: 8px; font-size: 0.98rem; }
+      .glass, .max-w-4xl, .max-w-xl { padding-left: 2vw !important; padding-right: 2vw !important; }
+      .text-5xl { font-size: 1.2rem !important; }
+      .text-3xl { font-size: 1rem !important; }
+      .py-20 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+    }
+  </style>
+</head>
+<body class="min-h-screen text-white relative">
+
+  <!-- Semi-transparent black overlay -->
+  <div class="bg-black bg-opacity-50 absolute inset-0"></div>
+
+  <header class="relative z-10 p-6 flex justify-between items-center fade-in-up">
+    <h1 class="text-3xl font-bold">Northern Mystery</h1>
+    <nav class="nav-menu space-x-6 text-lg flex gap-6">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#apply" class="nav-link">Apply</a>
+      <a href="uniform.html" class="nav-link">Team Uniform</a>
+    </nav>
+  </header>
+
+  <main class="relative z-10 mt-20 px-6 fade-in-up">
+    <section class="text-center py-20">
+      <h2 class="text-5xl font-extrabold mb-4">Welcome to Northern Mystery</h2>
+      <p class="text-xl max-w-2xl mx-auto">
+        Founded By: <strong>KAPPA ᯓ L. DREAMER</strong>
+      </p>
+    </section>
+
+    <section id="about" class="py-20 fade-in-up">
+      <div class="max-w-4xl mx-auto glass p-10 rounded-xl">
+        <h3 class="text-3xl font-bold mb-4">About Us</h3>
+        <p class="mb-4">
+          Welcome to <strong>Northern Mystery</strong> – a premier dressage club inspired by the essence of the <strong>northern lights</strong> and the ancient wisdom of <strong>astrology</strong>. Guided by the glow of the cosmos, we blend grace, precision, and unity in both our growing dressage knowledge and competitive routines.
+        </p>
+        <p class="mb-4">
+          Our <strong>black, grey, white, and teal theme</strong> symbolizes clarity, chilled, and celestial energy — a brilliant reflection of the bond we share as riders. NM is led by <strong>Siri ‘Kappa’ Easter</strong> and co-owned by <strong>Lara ‘Tsunami’ Pearlpaw</strong> — our club is built on friendship, creativity, and a shared love for the northern lights.
+        </p>
+        <p class="mb-4">
+          Northern Mystery was branded on <strong>25/05/25</strong>, a palindromic date that symbolizes symmetry and balance — qualities often tied to harmony, reflection, and spiritual alignment. At the very heart of <strong>Cupcake Valley, UK</strong>, is where starlit dreams and dressage elegance meet.
+        </p>
+        <p class="mb-4">
+          You’ll often find us parading through the arenas of Jorvik, forever expanding our knowledge and passion for <strong>Star Stable Dressage (SSD)</strong>. We welcome every rider, no matter your dressage experience — whether we are your very first club or the final one you choose to call home.
+        </p>
+        <p>
+          Whether you're a seasoned competitor or a stargazing soul drawn to the rhythm of the arena, there's a place for you in our constellation. For those drawn to the stars — <strong>your journey begins here</strong>. Step into the light, and find your place among the <strong>Eternal Auroras!</strong> <em>“We Don’t Follow the Aurora. We Are the Aurora.”</em>
+        </p>
+      </div>
+    </section>
+
+    <section id="gallery" class="py-20 fade-in-up">
+      <div class="text-center">
+        <h3 class="text-3xl font-bold mb-6">Gallery</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
+          <div class="gallery-item">
+            <img
+              src="assets/background/nm2.png"
+              alt="Star Stable 1"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="assets/background/nm3.png"
+              alt="Star Stable 2"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="assets/background/nm4.png"
+              alt="Star Stable 3"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apply" class="py-20 fade-in-up">
+      <div class="max-w-xl mx-auto glass p-10 rounded-xl text-center">
+        <h3 class="text-3xl font-bold mb-4">Apply Now</h3>
+        <p class="mb-6">
+          Think you’ve got what it takes to join Northern Mystery? We’re always looking
+          for talented, kind, and committed riders.
+        </p>
+        <a
+          href="https://discord.gg/YOUR-INVITE"
+          target="_blank"
+          class="apply-button inline-block bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-200"
+        >
+          Join Our Discord
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="relative z-10 text-center py-6 bg-black bg-opacity-40 mt-10">
+    &copy; 2025 Northern Mystery. All rights reserved.
+  </footer>
+</body>
+</html>
+</html>
